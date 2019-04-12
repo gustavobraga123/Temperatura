@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Conversão de Temperatura</title>
+</head>
+
+<body>
+    <h1>Conversão de Temperatura</h1>
+    <p>Escreva um valor em Fahrenheit para converter para Celsius</p>
+
+    <p>
+        <label>Fahrenheit</label>
+        <input id="inputFahrenheit" type="number" placeholder="Fahrenheit" oninput="conversaoTemperatura(this.value)"
+            onchange="temperatureConverter(this.value)">
+    </p>
+    <p>Celcius: <span id="outputCelcius"></span></p>
+
+    <script src="conversao.js"></script>
+
+</body>
+
+</html>
